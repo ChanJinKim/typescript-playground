@@ -83,6 +83,7 @@ console.log(parseInt(s));
 console.log(Number(s1));
 console.log(parseInt(s1));
 console.log(n instanceof Number);
+console.log('nodemon test 1');
 
 // isNaN보다는 Number.isNaN을 사용해야 할것 같다.
 // 숫자를 검사하는 수식에서 Number함수를 사용하여 강제로 변환 시키는게 올바르지 않아보인다.
