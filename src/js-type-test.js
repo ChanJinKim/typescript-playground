@@ -70,7 +70,19 @@ const dMethod = Date();
 // value instanceof Date 로 검사하는게 좀더 좋은 방식인듯 보임
 
 const n = NaN;
+const n0 = 0;
+const n1 = 1;
+const s = '';
+const s1 = '1asdfasdf';
 console.log(typeof n);
 console.log(isNumeric(n));
 console.log(Number(NaN));
 console.log(parseInt(NaN));
+console.log(Number(s));
+console.log(parseInt(s));
+console.log(Number(s1));
+console.log(parseInt(s1));
+console.log(n instanceof Number);
+
+// isNaN보다는 Number.isNaN을 사용해야 할것 같다.
+// 숫자를 검사하는 수식에서 Number함수를 사용하여 강제로 변환 시키는게 올바르지 않아보인다.
