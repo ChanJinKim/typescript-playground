@@ -1,3 +1,9 @@
+/**
+ * ReturnType<Type>
+ * Constructs a type consisting of the return type of function Type.
+ * https://www.typescriptlang.org/docs/handbook/utility-types.html#returntypetype
+ */
+
 declare function f1(): { a: number; b: string };
 
 type T0 = ReturnType<() => string>;
